@@ -2,7 +2,7 @@
 
 <img src="https://github.com/projopenrealms/brand/blob/master/icon-solid/icon-solid.png" width="200" alt="OpenRealms Logo" />
 
-This repo contains the core library for CustomRealms, the JavaScript runtime for Minecraft server plugins.
+This repo contains the core library for OpenRealms, the JavaScript runtime for Minecraft server plugins.
 
 ### Installation
 
@@ -38,7 +38,7 @@ ServerCommands.register('/strike', (player) => {
 
 ## How it works
 
-By default, without this library, the CustomRealms JavaScript runtime has access to all of the Java and Bukkit classes and functions.
+By default, without this library, the OpenRealms JavaScript runtime has access to all of the Java and Bukkit classes and functions.
 
 This library serves several important purposes:
 
