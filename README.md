@@ -1,6 +1,6 @@
 # @customrealms/core
 
-<img src="https://github.com/customrealms/brand/blob/master/icon-solid/icon-solid.png" width="200" alt="CustomRealms Logo" />
+<img src="https://github.com/openrealms/brand/blob/master/icon-solid/icon-solid.png" width="200" alt="CustomRealms Logo" />
 
 This repo contains the core library for CustomRealms, the JavaScript runtime for Minecraft server plugins.
 
