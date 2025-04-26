@@ -48,4 +48,4 @@ This library serves several important purposes:
 
 ## Contributing
 
-We need your help to implement new features, fix bugs, and optimize the entire system. If you want to help, please join our [Discord](https://discord.gg/bsTearKQsm) and/or check out the [Issues tab](https://github.com/openrealms/core/issues).
+We need your help to implement new features, fix bugs, and optimize the entire system. If you want to help, please join our [Discord](https://discord.gg/bsTearKQsm) and/or check out the [Issues tab](https://github.com/projopenrealms/core/issues).
