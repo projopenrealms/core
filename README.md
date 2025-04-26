@@ -1,19 +1,19 @@
-# @customrealms/core
+# @openrealms/core
 
-<img src="https://github.com/projopenrealms/brand/blob/master/icon-solid/icon-solid.png" width="200" alt="CustomRealms Logo" />
+<img src="https://github.com/projopenrealms/brand/blob/master/icon-solid/icon-solid.png" width="200" alt="OpenRealms Logo" />
 
 This repo contains the core library for CustomRealms, the JavaScript runtime for Minecraft server plugins.
 
 ### Installation
 
 ```sh
-npm install --save @customrealms/core
+npm install --save @openrealms/core
 ```
 
 ### Example #1 - Events
 
 ```ts
-import { ServerEvents } from '@customrealms/core';
+import { ServerEvents } from '@openrealms/core';
 
 // Send a welcome message when a player joins the server
 ServerEvents.register(org.bukkit.event.player.PlayerJoinEvent, (event) => {
@@ -25,7 +25,7 @@ ServerEvents.register(org.bukkit.event.player.PlayerJoinEvent, (event) => {
 ### Example #2 - Commands
 
 ```ts
-import { ServerCommands } from '@customrealms/core';
+import { ServerCommands } from '@openrealms/core';
 
 // Strike lightning where the player is looking
 ServerCommands.register('/strike', (player) => {
@@ -48,4 +48,4 @@ This library serves several important purposes:
 
 ## Contributing
 
-We need your help to implement new features, fix bugs, and optimize the entire system. If you want to help, please join our [Discord](https://discord.gg/bsTearKQsm) and/or check out the [Issues tab](https://github.com/customrealms/core/issues).
+We need your help to implement new features, fix bugs, and optimize the entire system. If you want to help, please join our [Discord](https://discord.gg/bsTearKQsm) and/or check out the [Issues tab](https://github.com/openrealms/core/issues).
