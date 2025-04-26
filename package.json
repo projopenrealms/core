@@ -1,15 +1,19 @@
 {
-	"name": "@customrealms/core",
-	"version": "2.0.0",
-	"description": "Core library for the CustomRealms runtime",
-	"main": "./dist/index.js",
-	"author": "Conner Douglass",
+	"name": "@openrealms/core",
+	"version": "2.0.1",
+	"description": "Core library for the OpenRealms runtime",
 	"homepage": "https://github.com/customrealms/core",
+	"bugs": {
+		"url": "https://github.com/projopenrealms/core/issues"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/customrealms/core.git"
+		"url": "git+https://github.com/projopenrealms/core.git"
 	},
 	"license": "MIT",
+	"author": "HyperDondon",
+	"type": "commonjs",
+	"main": "./dist/index.js",
 	"scripts": {
 		"build": "tsc",
 		"build:check": "tsc --noEmit",
@@ -17,11 +21,7 @@
 		"lint:check": "prettier --check . && eslint . --ext .js,.ts",
 		"test": "jest",
 		"docs": "typedoc --excludePrivate --excludeProtected src/index.ts",
-		"clean": "rm -rf dist",
-		"prepare": "npm run clean && npm run build"
-	},
-	"publishConfig": {
-		"access": "public"
+		"prepare": "npm run build"
 	},
 	"devDependencies": {
 		"@types/jest": "^29.5.12",
@@ -35,6 +35,9 @@
 		"ts-jest": "^29.1.5",
 		"tslib": "^2.3.1",
 		"typedoc": "^0.22.18",
-		"typescript": "^4.5.2"
+		"typescript": "^4.9.5"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
