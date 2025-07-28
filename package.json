@@ -2,7 +2,7 @@
 	"name": "@openrealms/core",
 	"version": "2.0.2",
 	"description": "Core library for the OpenRealms runtime",
-	"homepage": "https://github.com/customrealms/core",
+	"homepage": "https://github.com/projopenrealms/core",
 	"bugs": {
 		"url": "https://github.com/projopenrealms/core/issues"
 	},
